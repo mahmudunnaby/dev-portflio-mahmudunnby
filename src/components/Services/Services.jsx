@@ -3,9 +3,7 @@ import styles from './services.css'
 
 const Services = () => {
     return (
-        <div>
-
-        </div>
+        <section id='services'>Services</section>
     );
 };
 

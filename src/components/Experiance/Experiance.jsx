@@ -3,9 +3,7 @@ import styles from './experiance.css'
 
 const Experiance = () => {
     return (
-        <div>
-
-        </div>
+        <section id='experience'>Experience</section>
     );
 };
 
