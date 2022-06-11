@@ -7,7 +7,7 @@ import Portfolio from './components/Portfolio/Portfolio.jsx'
 import './App.css';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import Services from './components/Services/Services';
+
 
 function App() {
   return (
@@ -17,7 +17,6 @@ function App() {
       <About></About>
       <Experiance></Experiance>
       <Portfolio></Portfolio>
-      <Services></Services>
       <Contact></Contact>
       <Footer></Footer>
     </div>
