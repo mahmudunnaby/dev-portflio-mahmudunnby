@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './about.css'
 import Me from '../../assets/me-about.png'
-import { GrAchievement } from 'react-icons/gr';
+import { BsBook } from 'react-icons/bs';
 import { FaUniversity } from 'react-icons/fa';
 
 const About = () => {
@@ -18,7 +18,7 @@ const About = () => {
                 <div className='about__content'>
                     <div className='about__cards'>
                         <article className='about__card'>
-                            <GrAchievement className='about__icon'></GrAchievement>
+                            <BsBook className='about__icon'></BsBook>
                             <h5>Projects</h5>
                             <small>10+ Projects</small>
                         </article>
