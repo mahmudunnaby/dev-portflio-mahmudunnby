@@ -1,8 +1,38 @@
 import React from 'react';
 import styles from './contact.css'
+import { HiOutlineMail } from 'react-icons/hi';
+import { BsWhatsapp } from 'react-icons/bs';
 const Contact = () => {
     return (
-        <section id='contact'>Contact</section>
+        <section id='contact'>
+            <h5>Get In Touch</h5>
+            <h2>Contact Me</h2>
+
+            <div className="container contact__container">
+                <div className="contact__options">
+                    <article className="contact__option">
+                        <HiOutlineMail className='contact__option-icon'></HiOutlineMail>
+                        <h4>Email</h4>
+                        <h5>mahmudunnaby3@gmail.com</h5>
+                        <a href="mailto:mahmudunnaby3@gmail.com">Send a message</a>
+                    </article>
+                    <article className="contact__option">
+                        <BsWhatsapp className='contact__option-icon'></BsWhatsapp>
+                        <h4>WhatsApp</h4>
+                        <h5>+8801762508866</h5>
+                        <a href="https://api.whatsapp.com/send?phone=+8801762508866" target='_blank'>Send a message</a>
+                    </article>
+                </div>
+                <form>
+                    <input type="text" name='name' placeholder='Your Full Name' required />
+                    <input type="email" name='email' placeholder='Your Email' required />
+                    <textarea name="message" placeholder='Your Message' required rows="7"></textarea>
+                    <button type='submit' className='btn btn-primary'>Send Message</button>
+                </form>
+
+            </div>
+
+        </section>
     );
 };
 

@@ -5,6 +5,7 @@ import { BiUser } from 'react-icons/bi';
 import { BsBookmarkCheck } from 'react-icons/bs';
 import { RiServiceLine } from 'react-icons/ri';
 import { RiMessage3Line } from 'react-icons/ri';
+import { MdEditNote } from 'react-icons/md';
 
 const Nav = () => {
 
@@ -17,6 +18,7 @@ const Nav = () => {
             <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BsBookmarkCheck></BsBookmarkCheck></a>
             <a href="#portfolio" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine /></a>
             <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''} ><RiMessage3Line></RiMessage3Line></a>
+            <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''} ><MdEditNote></MdEditNote></a>
         </nav>
     );
 };
